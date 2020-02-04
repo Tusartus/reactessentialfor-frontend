@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EDEDED;
+
+
+
+}
+
+code{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app{
+    background-color: #fff;
+    margin: auto;
+
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    background-color: orange;
+    padding: 10px 20px;
+    max-height: 85px;
+}
+.logo{
+    z-index: 1;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.nav-menu{
+    display: flex;
+
+}
+ul li{
+    padding: 0 5px;
+    margin: 0 12px;
+    list-style: none;
+
+}
+ul li .nav-menu__link{
+    text-decoration: none;
+    font-size: 23px;
+    color: whitesmoke;
+}
+ul li .nav-menu__link:hover{
+color: black;
+}
+li.activate{
+    background-color: aquamarine;
+}
+
+/* home componenets */
+.main-content{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 52px;
+    background: white;
+}
+div h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 12px;
+
+}
+
+.home-image{
+    width: 80%;
+    height: 500px;
+    background-image: url("https://media4.s-nbcnews.com/j/newscms/2019_09/2764096/ss-190224-oscars-top-moments-17_d4624ef8f5854e9681226d59f256d308.fit-760w.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.home-image:hover{
+  
+    background-image:  url("https://media4.s-nbcnews.com/j/newscms/2019_09/2764096/ss-190224-oscars-top-moments-17_d4624ef8f5854e9681226d59f256d308.fit-760w.jpg");
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
+}
+
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3{
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+.home-thumbnail-1{
+    background-image: url('https://i.ytimg.com/vi/fBppe-RHyM4/maxresdefault.jpg');
+}
+.home-thumbnail-2{
+    background-image: url('https://www.thelines.com/wp-content/uploads/2019/02/BlackPanther.jpg');
+}
+
+.home-thumbnail-3{
+    background-image: url('https://heavyeditorial.files.wordpress.com/2017/07/gettyimages-489406276-e1499806055445.jpg?quality=65&strip=all&w=780');
+
+}
+
+.thumbnail-container{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.actor-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actor-image:hover {
+    cursor: pointer;
+}
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.film-image {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.film-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
